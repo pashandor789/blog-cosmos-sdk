@@ -14,8 +14,9 @@ In addition to learn how to build a chain thanks to `minid`, you can as well dir
 Install and run `minid`:
 
 ```sh
-git clone git@github.com:cosmosregistry/chain-minimal.git
+git clone git@github.com:pashandor789/blog-cosmos-sdk.git
 cd chain-minimal
+export PATH="$PATH:$(go env GOPATH)/bin"
 make install # install the minid binary
 make init # initialize the chain
 minid start # start the chain
